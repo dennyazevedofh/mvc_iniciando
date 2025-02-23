@@ -1,4 +1,4 @@
-# Programação Orientada a Objetos (POO)
+# Pradrão de Projetos - MVC
 
 ### Desenvolvido em JavaScript
 
