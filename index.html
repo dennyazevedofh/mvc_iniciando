@@ -77,8 +77,10 @@
           </div>
         </div>
       </form>
-      <table>
+      <table data-table-alunos>
         <thead>
+          <!-- Vamos retirar do html para deixar dinâmico -->
+          <!--
           <tr>
             <td>Nome</td>
             <td>backend_1</td>
@@ -86,9 +88,12 @@
             <td>bancodados</td>
             <td>ferramentas</td>
           </tr>
+          -->
         </thead>
 
         <tbody>
+          <!-- Vamos retirar do html para deixar dinâmico -->
+          <!--
           <tr>
             <td>chico melato</td>
             <td>1.5</td>
@@ -103,6 +108,7 @@
             <td>5.5</td>
             <td>7.75</td>
           </tr>
+          -->
         </tbody>
       </table>
     </div>
@@ -113,7 +119,7 @@
       const alunos = [
         {
           _id: 0,
-          nome: "chico melato",
+          nome: "Fulano Silva",
           notas: {
             backend_1: [1, 1, 2, 2],
             frontend_2: [2, 2, 2, 2],
@@ -123,7 +129,7 @@
         },
         {
           _id: 1,
-          nome: "talita lima",
+          nome: "Ciclano Souza",
           notas: {
             backend_1: [4, 4, 4, 4],
             frontend_2: [4, 4, 5, 5],
@@ -133,5 +139,6 @@
         },
       ];
     </script>
+    <script src="./js/app.js"></script>
   </body>
 </html>
