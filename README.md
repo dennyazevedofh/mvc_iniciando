@@ -1,4 +1,4 @@
-# Pradrão de Projetos - MVC
+# Padrão de Projetos - MVC
 
 ### Desenvolvido em JavaScript
 
